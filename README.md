@@ -4,9 +4,9 @@
 
 ### Systems Architecture Engineer &nbsp;·&nbsp; Full-Stack Developer
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&pause=1000&color=2DD4BF&center=true&vCenter=true&width=620&height=45&lines=Systems+Architecture+Engineer;I+build+internal+platforms+teams+actually+use;Architecture-first,+full-stack;IAM+/+real-time+systems+/+clean+structure" alt="typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&pause=1000&color=2DD4BF&center=true&vCenter=true&width=620&height=45&lines=Systems+Architecture+Engineer;I+build+internal+platforms+teams+actually+use;I+get+the+structure+right+before+the+code;Full-stack,+schema+to+UI" alt="typing intro" />
 
-📍 Johor Bahru, Malaysia &nbsp;·&nbsp; Open to roles — Malaysia &amp; remote / international
+📍 Johor Bahru, Malaysia &nbsp;·&nbsp; Open to roles in Malaysia and remote / international
 
 <a href="mailto:leelandrajkumar98@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://www.linkedin.com/in/leelandrk"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -16,41 +16,41 @@
 
 ---
 
-I build internal platforms from scratch — the kind that replace scattered manual processes with something a whole team ends up depending on. Most of my work is full-stack and architecture-first: I'd rather get the structure right early than patch it once adoption scales. Lately that's meant owning a platform end to end, from database schema and access control to real-time data and the UI on top.
+I build internal platforms from scratch. Usually that means turning a mess of manual processes into one system a team actually relies on. I try to get the structure right before writing much code, since that's what holds up once people start using it. Right now I'm doing that end to end: database schema, access control, real-time data, and the frontend on top.
 
 ## Featured work
 
-### NEXA — Internal Operations &amp; Architecture Platform
-Took an empty repository to company-wide deployment in under a year, largely solo. NEXA unifies identity, access, ticketing, and operational data behind a single permission-aware interface — built on a custom IAM layer that acts as the single source of truth, with the backend validating every access independently of the UI. It also handles real-time data, 3D hardware visualisation, analytics dashboards, and one-click PDF / Excel / PowerPoint exports.
+### NEXA: Internal Operations & Architecture Platform
+I took this from an empty repo to company-wide use in under a year, mostly on my own. It pulls identity, access, ticketing, and operational data into one interface, with permissions handled by a custom IAM layer that everything routes through. The backend checks access on its own instead of trusting the UI. On top of that it runs real-time data, 3D hardware views built with Three.js, analytics dashboards, and exports to PDF, Excel, and PowerPoint.
 **Stack** · TypeScript, React 18, Node/Express, PostgreSQL, Socket.IO, Three.js
-*Internal project — kept high-level, no repo link.*
+*Internal project, so I'm keeping it high level with no repo link.*
 
-### DHViewer + Codex — Real-time TTRPG platform with an AI co-pilot
-A live companion for Daggerheart tabletop sessions: party and combat state — HP, conditions, fear, 3D dice — synced across everyone's screens in real time with Socket.IO. Paired with **Codex**, a Claude-powered notes assistant with Ask / Story / Plan / Language modes and two-way Obsidian sync. My clearest example of building an LLM into a real product.
+### DHViewer + Codex: Real-time TTRPG platform with an AI co-pilot
+A live companion app for Daggerheart tabletop sessions. Party and combat state (HP, conditions, fear, 3D dice) stays in sync across everyone's screens over Socket.IO. It's paired with Codex, a Claude-powered notes assistant with Ask, Story, Plan, and Language modes plus two-way Obsidian sync. This is the project where I've done the most real LLM integration.
 **Stack** · React 19, Vite, Material UI, Zustand, Node/Express, Socket.IO, Anthropic SDK
-*Code private — opening up soon.*
+*Code private, opening up soon.*
 
-### AFKlog — Human-centered social-accountability PWA
-An installable PWA for staying loosely in touch with a small group: hourly photo, text, or video check-ins, a 51-achievement system, push notifications, and a nightly FFmpeg job that stitches everyone's day into one split-screen recap. Designed around how people actually live — quiet hours, low-battery days, and a gentle nudge when someone gets stuck. Inclusive by design.
+### AFKlog: Human-centered social-accountability PWA
+An installable PWA for keeping a small group loosely in touch. People post hourly check-ins (photo, text, or short video), work through 51 achievements, get push reminders, and every night an FFmpeg job stitches everyone's day into a split-screen recap. I built it around how people actually behave rather than an ideal user, so it has quiet hours, low-battery days, and a nudge for when you get stuck. The inclusive-design side of it was on purpose.
 **Stack** · React, Express, SQLite, Web Push, FFmpeg, PWA
-*Code private — opening up soon.*
+*Code private, opening up soon.*
 
-### Kaethis — A constructed language and its AI translator
-A language built from the ground up — full phonology, an evidentiality-based grammar (the grammar itself encodes *how* you know what you're saying), and three distinct writing systems. It's wired into Codex's Language mode, which translates it and canonises new words as they're coined mid-session.
+### Kaethis: A constructed language and its AI translator
+A language I built from scratch. It has a full phonology, three separate writing systems, and a grammar with evidentiality, meaning the grammar itself marks how you know what you're saying. It plugs into Codex's Language mode, which translates it and locks in new words as they get coined during a session.
 **Focus** · Language design, NLP, LLM integration
-*Living reference — no repo.*
+*Living reference, no repo.*
 
-### Hero Brain — Production site for an education service
-A live website for a Johor-based service offering literacy, maths, and social-emotional support for children. React / TypeScript / Tailwind front end with a git-based CMS and email integration.
+### Hero Brain: Production site for an education service
+A live site for a Johor education service that helps kids with literacy, maths, and social-emotional learning. React, TypeScript, and Tailwind on the front, with a git-based CMS and email handling behind it.
 **Stack** · React, TypeScript, Tailwind CSS, Nodemailer
-🔗 [herobrain.space](https://herobrain.space)
+Live: [herobrain.space](https://herobrain.space)
 
-### MIPS Emulator — A MIPS CPU emulator in C++
-A MIPS processor emulator written during my degree — decoding and executing instructions from first principles. The low-level counterweight to the platform work.
+### MIPS Emulator: A MIPS CPU emulator in C++
+A MIPS processor emulator I wrote in C++ during my degree. It decodes and runs the instructions itself. It's the low-level side of my work, and a change of pace from the platform stuff.
 **Stack** · C++
-🔗 [github.com/iridescented/MIPS_Emulator](https://github.com/iridescented/MIPS_Emulator)
+Repo: [github.com/iridescented/MIPS_Emulator](https://github.com/iridescented/MIPS_Emulator)
 
-**Also:** *Transaction Tracker* — logs transactions entered through Discord into a database and surfaces them on a web dashboard with charts and a searchable viewer. `Node.js · Discord.js · Wise API · TypeScript`
+**Also:** *Transaction Tracker*, which takes transactions people enter in Discord, stores them, and shows them on a web dashboard with charts and a searchable view. `Node.js · Discord.js · Wise API · TypeScript`
 
 ## Tech
 
@@ -64,9 +64,4 @@ A MIPS processor emulator written during my degree — decoding and executing in
 
 ## Certifications
 
-**Meta Back-End Developer** — Professional Certificate, Coursera
-
-<div align="center">
-<br/>
-<sub>Architecture before code.</sub>
-</div>
+**Meta Back-End Developer Professional Certificate** (Coursera)
